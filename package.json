@@ -1,0 +1,23 @@
+{
+  "name": "dprint",
+  "version": "0.13.1",
+  "description": "Install dprint",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "install": "binwrap-install",
+    "prepare": "binwrap-prepare",
+    "test": "binwrap-test"
+  },
+  "license": "BSD-3-Clause",
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "dprint": "bin/dprint"
+  },
+  "dependencies": {
+    "binwrap": "0.2.3"
+  }
+}
